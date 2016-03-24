@@ -16,24 +16,31 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
+"模版文件
 Bundle 'honza/vim-snippets'
+"js 自动补全
 Bundle 'marijnh/tern_for_vim'
+"目录树
 Bundle 'scrooloose/nerdtree'
+"主题
 Bundle 'tomasr/molokai'
+"自动打对称的符号
 Bundle 'jiangmiao/auto-pairs'
+"快速写html，css 前生是zendcoding
 Bundle 'mattn/emmet-vim'
 "ctrl-p 搜索文件
 Bundle 'kien/ctrlp.vim'
-Bundle 'Mark'
-Bundle 'terryma/vim-multiple-cursors'
-Bundle 'Shutnik/jshint2.vim'
+"jslint 语法检查，配置简单，目前弃用
+"Bundle 'Shutnik/jshint2.vim'
+"javasript语法缩进配置
 Bundle 'pangloss/vim-javascript'
+"语法检查器,可检查多种语言
 Bundle 'scrooloose/syntastic'
-"Bundle 'wookiehangover/jshint.vim'
-"Bundle 'xolox/vim-session'
+"自动补全插件
 if has('gui_running')
 	Bundle 'Valloric/YouCompleteMe'
 endif
+"html缩进
 Bundle 'vim-scripts/indenthtml.vim'
 
 " YCM
